@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { ArrowDown, Mail } from 'lucide-react'
-import { GithubIcon, LinkedinIcon } from './ui/BrandIcons'
+import { GithubIcon, LinkedinIcon, LeetcodeIcon } from './ui/BrandIcons'
 
 export default function Hero() {
   return (
@@ -19,11 +19,11 @@ export default function Hero() {
             <span className="text-[#06B6D4]"> Bhosale</span>
           </h1>
           <p className="text-xl text-[#94A3B8] mb-6">
-            MERN Stack Developer & Data Analyst
+            Data Analyst & MERN Stack Developer
           </p>
           <p className="text-[#94A3B8] mb-8 max-w-lg leading-relaxed">
             BTech CSBS student at Kolhapur Institute of Technology. Passionate about building scalable 
-            web applications and uncovering insights from data. Currently seeking opportunities in 
+            web applications and uncovering insights from data. Strong foundation in DSA. Currently seeking opportunities in 
             full-stack development and data analytics.
           </p>
           <div className="flex gap-4">
@@ -48,6 +48,14 @@ export default function Hero() {
               className="p-3 bg-[#161B26] rounded-lg hover:bg-[#06B6D4] hover:text-[#0B0F19] transition-all duration-300"
             >
               <Mail size={20} />
+            </a>
+            <a
+              href="https://leetcode.com/u/ayushbhosale_01/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 bg-[#161B26] rounded-lg hover:bg-[#06B6D4] hover:text-[#0B0F19] transition-all duration-300"
+            >
+              <LeetcodeIcon size={20} />
             </a>
           </div>
         </motion.div>
