@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { ArrowDown, Mail } from 'lucide-react'
 import { GithubIcon, LinkedinIcon, LeetcodeIcon } from './ui/BrandIcons'
+import profilePic from '../assets/profile.jpg'
 
 export default function Hero() {
   return (
@@ -70,7 +71,7 @@ export default function Hero() {
             <div className="w-72 h-72 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-[#06B6D4] to-[#3B82F6] p-1">
               <div className="w-full h-full rounded-full overflow-hidden">
                 <img
-                  src="/src/assets/profile.jpg"
+                  src={profilePic}
                   alt="Ayush Bhosale"
                   className="w-full h-full object-cover object-top"
                 />
